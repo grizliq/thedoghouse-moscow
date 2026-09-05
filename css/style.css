@@ -72,10 +72,10 @@ main{max-width:var(--maxw);margin:0 auto;padding:36px clamp(16px,5vw,32px) 0}
 .hero__facts span{color:var(--muted);font-size:12.5px}
 
 /* О слоте */
-.about{display:grid;grid-template-columns:1.02fr .98fr;gap:44px;align-items:center;text-align:left;
+.about{display:grid;grid-template-columns:.98fr 1.02fr;gap:44px;align-items:start;text-align:left;
   max-width:1000px;margin:0 auto}
 .about__text p{margin:0 0 16px}
-.about__facts{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:22px 0 0;padding:0}
+.about__facts{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0 0;padding:0;text-align:left}
 .about__facts li{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
   padding:11px 15px;border-radius:11px;border:1px solid var(--line-soft);
   background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.01))}
